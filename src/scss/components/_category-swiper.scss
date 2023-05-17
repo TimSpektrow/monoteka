@@ -1,0 +1,68 @@
+.category-swiper {
+  width: 100%;
+
+  @include mobile {
+    grid-column: span 12;
+    height: 380px;
+  }
+
+  @include tablet {
+    grid-column: span 12;
+    height: 420px;
+  }
+
+  @include tablet-desktop {
+    grid-column: span 12;
+    height: 540px;
+  }
+
+  @include desktop {
+    grid-column: span 12;
+    height: 540px;
+  }
+
+  @include large-desktop {
+    grid-column: span 4;
+    height: 540px;
+  }
+
+
+}
+
+.category-swiper__slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 35px 15px;
+  background-size: cover;
+
+  &-title {
+    font-size: 28px;
+    color: var(--c-white);
+    margin-bottom: 10px;
+  }
+
+  &-link {
+    font-family: var(--f-secondary);
+    color: var(--c-primary);
+    text-decoration: underline;
+    transition: color .2s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--c-white);
+    }
+  }
+
+  &_jacket {
+    background-image: url('../img/content/jacket.jpg');
+  }
+  &_business {
+    background-image: url('../img/content/business.jpg');
+  }
+  &_shirt {
+    background-image: url('../img/content/shirt.jpg');
+  }
+}

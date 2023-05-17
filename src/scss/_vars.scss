@@ -1,0 +1,19 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: 'Yanone Kaffeesatz', sans-serif;
+
+  --f-primary: 'Yanone Kaffeesatz', sans-serif;
+  --f-secondary: 'Clear Sans', arial;
+
+  --content-width: 1660px;
+  --container-offset: 100px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --c-primary: #ef7f1a;
+  --c-white: #fff;
+  --c-black: #000;
+  --c-gray-light: #bababa;
+}

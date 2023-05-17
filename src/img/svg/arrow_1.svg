@@ -1,0 +1,24 @@
+<svg id="arrow_2_копия_2" data-name="arrow 2 копия 2" xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.8;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #5b523a;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #5e543a;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-1" cx="26.5" cy="26.5" r="24"/>
+  <circle id="Эллипс_2_копия" data-name="Эллипс 2 копия" class="cls-2" cx="26.5" cy="26.5" r="25"/>
+  <path id="Фигура_10" data-name="Фигура 10" class="cls-3" d="M1166,341v10l6.98-5.5Zm-30.01,4v2h31.11v-2h-31.11Z" transform="translate(-1127.5 -319.5)"/>
+</svg>
